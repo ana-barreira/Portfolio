@@ -20,23 +20,11 @@ h3 {
 h1 {
   font-size: 96px;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-}
 
 h2 {
   font-size: 48px;
 }
 
-@media (max-width: 576px) {
-  h2 {
-    font-size: 32px;
-    text-align: center;
-  }
-}
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -46,11 +34,6 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-}
-@media (max-width: 576px) {
-  p {
-    text-align: center;
-  }
 }
 
 .navigation-links {
@@ -119,6 +102,17 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
 }
 .mt-5 {
