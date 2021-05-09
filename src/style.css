@@ -8,6 +8,7 @@ body {
   margin: 100px 0;
   display: block;
   margin-top: 100px;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -18,24 +19,28 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   opacity: 0.7;
 }
 
 p {
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
+.navbar-brand {
+  font-weight: bold;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
