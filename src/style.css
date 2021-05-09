@@ -2,13 +2,14 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: "Poppins", sans-serif;
 }
 
 body {
   margin: 100px 0;
   display: block;
   margin-top: 100px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family);
 }
 
 h1,
