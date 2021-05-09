@@ -11,10 +11,11 @@ body {
   font-family: var(--font-family);
 }
 .hero {
-  background-color: black;
+  background-color: #f9f7fe;
   margin: 15px;
-  color: white;
-  padding: 10px;
+  color: black;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -49,13 +50,13 @@ p {
 }
 .navigation-links {
   display: flex;
-  margin-top: 25px;
+  margin-top: 10px;
   justify-content: center;
 }
 
 .navigation-links a {
   margin: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 4px;
   padding: 10px;
   text-decoration: none;
@@ -63,10 +64,9 @@ p {
 }
 
 .contact-link {
-  background: black;
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
-  border: solid white;
+  color: var(--secondary-color);
 }
 
 .homepage-link {
