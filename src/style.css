@@ -116,7 +116,7 @@ p {
   background: var(--primary-color);
   color: white;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
@@ -147,7 +147,7 @@ p {
   .hero {
     padding: 25px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0px;
   }
@@ -168,15 +168,15 @@ p {
   height: auto;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-weight: bold;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
