@@ -215,8 +215,12 @@ footer .social-links a:hover {
   padding: 15px 30px;
 }
 
+a.btn.btn-branding {
+  color: white;
+}
+
 #profile-picture {
-  border-radius: 1em;
+  border-radius: 20em;
   max-width: 100%;
   height: auto;
 }
