@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #008cba;
+  --secondary-color: #f3f4f6;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --font-family: "Montserrat", sans-serif;
+  --font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -74,9 +74,7 @@ p {
 }
 
 .contact-link:hover {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: white;
 }
 
 .homepage-link {
@@ -205,6 +203,13 @@ footer .social-links a:hover {
   .content-container h1 {
     font-size: 45px;
   }
+  #profile-picture {
+    padding: 10px;
+  }
+
+  footer.container {
+    margin-top: 0;
+  }
 }
 .btn-branding {
   background: var(--primary-color);
@@ -221,7 +226,7 @@ a.btn.btn-branding {
 
 #profile-picture {
   border-radius: 20em;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
